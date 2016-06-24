@@ -1,0 +1,100 @@
+.loading{
+	background:#333;
+	width:100%;
+	height:100%;
+	line-height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99999;
+	color:#ccc;
+	text-align:center;
+}
+.mp3{
+	width:32px;
+	height:32px;
+	background:url(../img/mp3.png) no-repeat center -25px;
+	background-size:16px 48px;
+	z-index:99;
+	position: absolute;
+	top:3%;
+	right:3%;
+}
+.mp3.stop{background-position:center 5px;}
+.hide{ display:none;}
+
+.page{
+    width:100%;
+    height:100%;
+    position:absolute;
+    font-size:100px;
+    text-align:center;
+}
+
+.icon-up{
+	    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    z-index: 10;
+    width: 74px;
+    height: 76px;
+    margin-left: -37px;
+}
+
+.page-1-1{ 
+	background: url(../img/B1.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.page-2-1{ 
+	background: url(../img/B2.jpg) no-repeat; 
+	background-size:100% 100%;
+}
+.page-3-1{ 
+	background: url(../img/B3.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-4-1{ 
+	background: url(../img/B4.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-5-1{ 
+	background: url(../img/B5.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-6-1{ 
+	background: url(../img/B6.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-7-1{ 
+	background: url(../img/B7.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-8-1{ 
+	background: url(../img/B8.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-9-1{ 
+	background: url(../img/B9.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-10-1{ 
+	background: url(../img/B10.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-11-1{ 
+	background: url(../img/B11.gif) no-repeat; 
+	background-size:100% 100%;
+}
+.page-12-1{ 
+	background: url(../img/B13N.jpg) no-repeat; 
+	background-size:100% 100%;
+}
+#canvas-img{
+	position: absolute;
+	z-index: -1;
+	left: -1000px;
+}
+
+.page-current{
+    z-index:1;
+}
